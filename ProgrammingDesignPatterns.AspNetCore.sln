@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebStarter", "WebStarter\WebStarter.csproj", "{BF29B8CD-9E9E-4F51-816E-8BB869A7BAEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basic.OOPDesignPatterns", "Basic.OOPDesignPatterns", "{0D7CA0FE-2EF5-4DF2-8229-3D2DE8183801}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cloud.DesignPatterns", "Cloud.DesignPatterns", "{60391BA8-4AFD-49E9-8213-7A60C2EAE874}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservice.DesignPatterns", "Microservice.DesignPatterns", "{028FE4BB-C41F-4D30-9693-0BAA8A08AD6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GoF.CreationalDesignPattern", "GoF.CreationalDesignPattern", "{98D96FB4-51F6-4EA1-BF75-A0EA39E25B76}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GoF.StructuralDesignPattern", "GoF.StructuralDesignPattern", "{62F8AC4F-B9A5-4B41-BA08-8FECAECE41C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GoF.BehavioralDesignPattern", "GoF.BehavioralDesignPattern", "{27DE5495-09F5-4636-8A69-A5BE1EFEE958}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator.Demo1", "Basic.OOPDesignPatterns\GoF.BehavioralDesignPattern\Mediator.Demo1\Mediator.Demo1.csproj", "{FFEE04D2-9593-4976-A0D1-5D9C5966BEE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF29B8CD-9E9E-4F51-816E-8BB869A7BAEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF29B8CD-9E9E-4F51-816E-8BB869A7BAEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF29B8CD-9E9E-4F51-816E-8BB869A7BAEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF29B8CD-9E9E-4F51-816E-8BB869A7BAEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFEE04D2-9593-4976-A0D1-5D9C5966BEE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFEE04D2-9593-4976-A0D1-5D9C5966BEE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFEE04D2-9593-4976-A0D1-5D9C5966BEE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFEE04D2-9593-4976-A0D1-5D9C5966BEE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{98D96FB4-51F6-4EA1-BF75-A0EA39E25B76} = {0D7CA0FE-2EF5-4DF2-8229-3D2DE8183801}
+		{62F8AC4F-B9A5-4B41-BA08-8FECAECE41C1} = {0D7CA0FE-2EF5-4DF2-8229-3D2DE8183801}
+		{27DE5495-09F5-4636-8A69-A5BE1EFEE958} = {0D7CA0FE-2EF5-4DF2-8229-3D2DE8183801}
+		{FFEE04D2-9593-4976-A0D1-5D9C5966BEE3} = {27DE5495-09F5-4636-8A69-A5BE1EFEE958}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F4BB232-CFB0-401E-A331-F0D1B580870F}
+	EndGlobalSection
+EndGlobal
